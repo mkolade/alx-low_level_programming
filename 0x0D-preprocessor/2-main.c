@@ -1,6 +1,6 @@
 #include <stdio.h>
 #ifndef PRINT_FILE_NAME
-#define PRINT_FILE_NAME() printf("%s/n", __FILE__)
+#define PRINT_FILE_NAME() printf("%s\n", __FILE__)
 #endif
 /**
  * main - function to print file name
